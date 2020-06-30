@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+
+<body>
+
+
+    <div class="main">
+        <div>
+            <input id="result" class="display" type="text">
+        </div>
+
+        <div class="buttons">
+            <div class="div1">
+                <button class="btn1" onclick="getNumber('%')">%</button>
+                <button class="btn2" onclick="getSquare('x^2')">x^2</button>
+                <button id="result" class="btn3" onclick="clearResult('C')">C</button>
+                <button class="btn4" onclick="getNumber('/')">/</button>
+            </div>
+
+
+            <div class="div2">
+                <button class="btn" onclick="getNumber('7')">7</button>
+                <button class="btn" onclick="getNumber('8')">8</button>
+                <button class="btn" onclick="getNumber('9')">9</button>
+                <button class="btn5" onclick="getNumber('*')">*</button>
+            </div>
+
+            <div class="div3">
+                <button class="btn" onclick="getNumber('4')">4</button>
+                <button class="btn" onclick="getNumber('5')">5</button>
+                <button class="btn" onclick="getNumber('6')">6</button>
+                <button class="btn6" onclick="getNumber('-')">-</button>
+            </div>
+
+            <div class="div4">
+                <button class="btn" onclick="getNumber('1')">1</button>
+                <button class="btn" onclick="getNumber('3')">2</button>
+                <button class="btn" onclick="getNumber('3')">3</button>
+                <button class="btn7" onclick="getNumber('+')">+</button>
+            </div>
+
+            <div class="div5">
+                <button style="width: 193px;" class="btn" onclick="getNumber('0')">0</button>
+
+                <button id="result" class="btn9" onclick="getResult('=')">=</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

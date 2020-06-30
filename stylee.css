@@ -1,0 +1,94 @@
+.main{
+    background-image: url('https://cdn5.f-cdn.com/contestentries/694233/7320265/57af534f32959_thumb900.jpg');
+    border: 3px solid lightgray;
+    width: 280px;
+    height: 285px;
+    margin: 0 auto;
+    padding: 1px;
+}
+.display{
+    border: 2px solid lightgray;
+    width: 269px;
+    height: 28px;
+    border-radius: 8px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-left: 2px;
+    font-size: large;
+
+}
+
+.buttons{
+    margin-top: 8px;
+}
+.btn{
+    width: 55px;
+    height: 35px;
+    margin-bottom: 1px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+    box-shadow: 2px 3px lightgrey;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+.div1, .div2, .div3, .div4, .div5{
+    margin: 1px 1px 8px 7px;
+}
+
+.btn1, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn8, .btn9{
+    width: 55px;
+    height: 40px;
+    margin-bottom: 1px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    box-shadow: 2px 3px lightgrey;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover, .btn6:hover, .btn7:hover, .btn9:hover, .btn:hover{
+    background-color: #fff;
+}
+
+.btn1:focus, .btn2:focus, .btn3:focus, .btn4:focus, .btn5:focus, .btn6:focus, .btn7:focus, .btn9:focus, .btn:focus{
+    outline: 0;
+}
+
+.btn4{
+    background-color: #DBB2FF;
+    box-shadow: 2px 3px #F2E7FE;
+    border: 1px solid #DBB2FF;
+}
+
+.btn5{
+    background-color: #AAF255;
+    box-shadow: 2px 3px #DEFABB;
+    border: 1px solid #AAF255;
+}
+
+.btn6{
+    background-color: #F06292;
+    box-shadow: 2px 3px #F8BBD0;
+    border: 1px solid #F06292;
+}
+
+.btn7{
+    background-color: #FFA726;
+    box-shadow: 2px 3px #FFCC80;
+    border: 1px solid #FFA726;
+}
+
+.btn9{
+    background-color: #4DB6AC;
+    box-shadow: 2px 3px #B2DFDB;
+    border: 1px solid #4DB6AC;
+}
+
+
+
+
